@@ -1,8 +1,9 @@
-from math import *
+# importerer kvadratrot fra math biblioteket
+from math import sqrt
 
-
+# funksjon som regner ut areal og omkrets av et tetraeder, gitt høyden
 def tetraeder():
-
+  # ber personen skrive inn høyder til tetraederet 
   h = int(input("Skriv in høyden til tetraederet:\n"))
   a = (3*h)/(sqrt(6))
 

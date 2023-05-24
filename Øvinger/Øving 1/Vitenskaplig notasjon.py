@@ -1,11 +1,13 @@
 def vitnot_a():
-
+  # lagrer konstanten gitt i oppgaven som en variabel
   av_kon = 6.022e23
 
+  # spør person om ulike verdier som brukes i utregningen og svaret
   stoff = input("Si et stoff du er i besittelse av: ")
   molvekt = int(input(f'Hva er molvekten i gram for {stoff}? '))
   vekt = int(input(f'Hvor mange gram {stoff} har du? '))
 
+  # bruker inputen og lagrer svaret som en variabel
   ant_mol = (vekt/molvekt)*av_kon
 
   print(f'Du har {format(ant_mol,".1e")} molekyler {stoff}')
